@@ -8,12 +8,9 @@ document.getElementById('register-form').addEventListener('submit', async functi
   messageDiv.textContent = '登録処理中...';
 
   try {
-    const response = await fetch('https://sf6mbcbrvc.execute-api.ap-southeast-1.amazonaws.com/api/register', {
+    const response = await fetch('https://j3wxyxe4p8.execute-api.ap-southeast-1.amazonaws.com/Prod/proxy', {
       method: 'POST',
-      headers: { 
-        'Content-Type': 'application/json' ,
-        'x-api-key': 'Cch45QJ0jQ6zdDbqYMR6FTjNJVC3fEI60JRB8yNi'
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ user_id, password })
     });
     
