@@ -5,12 +5,10 @@ document.addEventListener("DOMContentLoaded", async function() {
   const searchInput = document.getElementById("search");
 
   try {
-    const response = await fetch("https://your-api-gateway-endpoint/get-users", {
+    const response = await fetch("https://n34x3ldi0l.execute-api.ap-southeast-1.amazonaws.com/api/users", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        // If API key required:
-        // "x-api-key": "YOUR_API_KEY"
       }
     });
 
