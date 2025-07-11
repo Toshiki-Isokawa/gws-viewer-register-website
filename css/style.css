@@ -52,3 +52,25 @@ button:hover {
   margin-top: 20px;
   text-align: center;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+#search {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 20px;
+  display: block;
+}

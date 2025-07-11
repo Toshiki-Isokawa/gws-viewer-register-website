@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GWS Viewer登録ユーザー一覧</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>GWS Viewer登録ユーザー一覧</h1>
+
+    <input type="text" id="search" placeholder="ユーザーID検索" />
+
+    <table id="users-table">
+      <thead>
+        <tr>
+          <th>User ID</th>
+          <th>登録日時</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Users will be populated here -->
+      </tbody>
+    </table>
+
+    <button onclick="location.href='index.html'">ホームに戻る</button>
+  </div>
+
+  <script src="js/users.js"></script>
+</body>
+</html>
